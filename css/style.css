@@ -430,6 +430,10 @@ footer p {
         width: 90%;
         margin: auto;
     }
+
+    .filter-item .filter {
+        font-size: 1.2em;
+    }
     
     main {
         flex-direction: column; 
@@ -810,4 +814,60 @@ footer p {
         font-size: 1.5em;
     }
 
+}
+
+@media screen and (max-width: 503px){
+    
+    .form-i i {
+        transform: translateY(8%);
+    }
+
+    .filter-item .filter {
+        font-size: 1.1em;
+    }
+
+    .hebergement-container h3 {
+        font-size: 1.3em;
+    } 
+
+    .hebergement-container p {
+        font-size: 1.1em;
+    }
+
+    .act-item h3 {
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 430px){
+    
+    .most-title {
+        margin-bottom: 5%;
+    }
+
+    .hebergement-container h3 {
+        font-size: 1.2em;
+    } 
+
+    .hebergement-container p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .most-title h2 {
+        font-size: 1.25em;
+    }
+
+    .hebergement-container a {
+        aspect-ratio: 335/250;
+    }
+}
+
+@media screen and (max-width: 350px){
+    
+    .act-item h3 {
+        font-size: 1.6em;
+    }
 }
