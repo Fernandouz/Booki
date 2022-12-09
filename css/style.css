@@ -835,7 +835,7 @@ footer p {
     }
 
     .act-item h3 {
-        font-size: 1.8em;
+        font-size: 1.7em;
     }
 }
 
@@ -852,6 +852,10 @@ footer p {
     .hebergement-container p {
         font-size: 1em;
     }
+
+    .act-item h3 {
+        font-size: 1.5em;
+    }
 }
 
 @media screen and (max-width: 400px){
@@ -862,6 +866,11 @@ footer p {
 
     .hebergement-container a {
         aspect-ratio: 335/250;
+    }
+
+    .act-item h3 {
+        margin-top: 0px;
+        font-size: 1.7em;
     }
 }
 
