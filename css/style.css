@@ -8,6 +8,7 @@ body {
     width: 100vw;
     max-width: 1440px;
     font-family: 'Raleway';
+    overflow-x: hidden;
 }
 
 /*=== Partie Header=======*/
@@ -421,10 +422,8 @@ footer p {
 @media screen and (max-width: 991px) {
     
     body {
-        width: 100vw;
         max-width: 991px;
         padding: 0% 5%;
-        margin: 0;
     }
 
     header {
@@ -549,6 +548,7 @@ footer p {
     
     body {
         padding: 0%;
+        
     }
 
     header {
@@ -649,9 +649,6 @@ footer p {
     }
 
     /*=========== Main ============*/
-    body {
-        width: 100vw;
-    }
     main {
         width: 100%;
         margin: 0px;
