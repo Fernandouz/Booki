@@ -305,6 +305,11 @@ section {
     scale: 1.1;
 }
 
+.most-items{
+    height: auto;
+    margin-top: 30px;
+}
+
 .most-card{
     width: 100%;
     margin: auto;
@@ -313,13 +318,13 @@ section {
     display: flex;
     padding: 5px;
     border-radius: 20px;
-    height: auto;
-    aspect-ratio: 343/144;
+    height: 100%;
     box-shadow: 2px 2px 10px #D9D9D9;
 }
 
 .most-card img {
     object-fit: cover;
+    aspect-ratio: 1/1;
     width: 40%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
