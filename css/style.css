@@ -548,7 +548,6 @@ footer p {
     
     body {
         padding: 0%;
-        
     }
 
     header {
@@ -577,7 +576,10 @@ footer p {
     .nav a {
         text-align: center;
         padding-bottom: 20px;
+        padding-left: 0px;
         font-size: 1.3em;
+        transform: translateX(0px);
+        width: 50vw;
     }
 
     .nav :hover {
@@ -614,7 +616,7 @@ footer p {
     }
 
     form button span {
-        visibility: hidden;
+        display: none;
     }
 
     form button i {
